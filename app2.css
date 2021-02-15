@@ -43,5 +43,5 @@ table{
 #grd {
     height: 200px;
     background-color: pink;
-    background-image: linear-gradient(red, green);
+    background-image: linear-gradient(to right, red, green);
 }
