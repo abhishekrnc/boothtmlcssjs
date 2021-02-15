@@ -43,7 +43,7 @@ table{
 #grd {
     height: 200px;
     width: 200px;
-    box-shadow: purple;
+    box-shadow: 10px 10px purple;
     background-color: pink;
     background-image: linear-gradient(to right, red, green);
 }
