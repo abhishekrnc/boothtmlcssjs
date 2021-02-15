@@ -28,6 +28,8 @@ table{
 .flex-container {
     display: flex;
     background-color: pink;
+    flex-direction: column;
+    border-radius: 20px;
 }
 
 .flex-container > div {
@@ -35,4 +37,5 @@ table{
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    border-radius: 20px;
 }
