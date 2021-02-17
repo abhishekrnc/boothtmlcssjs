@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="">
+   <form name="myform" onsubmit="return (validate())">
        <table cellspacing="2" cellpadding="2" border="1">
 
         <tr>
@@ -15,11 +15,11 @@
         </tr>
         <tr>
             <td align="right">Email</td>
-            <td><input type="text" name='name'/></td>
+            <td><input type="text" name='email'/></td>
         </tr>
         <tr>
             <td align="right">zip code</td>
-            <td><input type="text" name='name'/></td>
+            <td><input type="text" name='zip'/></td>
         </tr>
         <tr>
             <td align="right">country</td>
@@ -38,5 +38,6 @@
         </tr>
        </table>
    </form> 
+   <script src="/static/welcome2.js"></script>
 </body>
 </html>
