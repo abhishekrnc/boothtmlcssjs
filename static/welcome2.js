@@ -8,5 +8,9 @@ function validate() {
         return false
     }
 
-    if(document.myform.zip.value == "" || isNaN(document.myform.zip.value))
+    if(document.myform.zip.value == "" || isNaN(document.myform.zip.value || document.myform.zip.value.length !=5)) {
+        alert("enter the zip code")
+        document.myform.zip.focus()
+        return false
+    }
 }
