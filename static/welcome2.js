@@ -7,4 +7,6 @@ function validate() {
         document.myform.name.focus()
         return false
     }
+
+    if(document.myform.zip.value == "" || isNaN(document.myform.zip.value))
 }
