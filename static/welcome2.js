@@ -13,4 +13,10 @@ function validate() {
         document.myform.zip.focus()
         return false
     }
+
+    if(document.myform.country.value == "-1") {
+        alert("select the country")
+        document.myform.country.focus()
+        return false
+
 }
